@@ -1,6 +1,6 @@
 function split() {
-  var fs = require("fs");
-  var text = fs.readFileSync("./12.txt").toString("utf-8");
+  //var fs = require("fs");
+  var text = readFileSync("./12.txt").toString("utf-8");
 
   var textByLine = text.split(".");
   var i = Math.floor(Math.random() * textByLine.length);
