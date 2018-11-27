@@ -28,7 +28,7 @@ it might be a good idea to create a separate lane on your board for fixed-date i
 
 propose time-constrained stories a certain length of time before the deadline, much in the way that airplane companies require passengers to check in at least 30 minutes before their flight. 
 
-In Why the FBI Can’t Build a Case Management System , Jerome Israel highlights one of the biggest risks of iterative delivery...due to pressure to show progress, development turned towards easy tasks and serious risks always got postponed. Small, easy wins always get prioritised over difficult tasks, like children choosing between candy and broccoli.
+In Why the FBI Can’t Build a Case Management System , Jerome Israel highlights one of the biggest risks of iterative delivery due to pressure to show progress, development turned towards easy tasks and serious risks always got postponed. Small, easy wins always get prioritised over difficult tasks, like children choosing between candy and broccoli.
 
 periodically shifting gears during delivery and alternating between ‘paying to learn’ (addressing major risks) and ‘paying to get business value’. 
 
@@ -74,4 +74,4 @@ Never say ‘no’ - say ‘not now’
 Provide a low-friction channel for stakeholders to change direction at regular intervals
 Provide a high-friction channel for someone to push through a critical change between those intervals 
 
-For example, if a test in the feature sets area fails, the team can sound the alarm and break the current build. On the other hand, if a test in the current iteration area fails, that’s expected - the team is still building that feature. 
+For example, if a test in the feature sets area fails, the team can sound the alarm and break the current build On the other hand, if a test in the current iteration area fails, that’s expected - the team is still building that feature. 
