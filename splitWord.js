@@ -1,9 +1,9 @@
-function split() {
-  //var fs = require("fs");
-  var text = readFileSync("./12.txt").toString("utf-8");
 
-  var textByLine = text.split(".");
-  var i = Math.floor(Math.random() * textByLine.length);
-  console.log(textByLine[i]);
+function readFile() {
+  jQuery.get("12.txt", function(txt) {
+      var qoute = txt.split(".");
+      var i = Math.floor(Math.random() * (qoute.length-1));
+    $("#output").text(qoute[i]);
+      console.log(qoute)
+  });
 }
-
